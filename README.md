@@ -1,2 +1,3 @@
-#fullstackopen
-Link to the sample section: [Fullstackopen](#https://fullstackopen.com/).
+# fullstackopen
+
+Link to the Fullstackopen: [Fullstackopen](https://fullstackopen.com/).
