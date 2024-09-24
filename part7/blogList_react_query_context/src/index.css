@@ -1,0 +1,69 @@
+h1 {
+  color: green;
+  font-style: italic;
+}
+
+.blog {
+  color: grey;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.button_list {
+  display: block;
+}
+
+.button_list button{
+  margin: 10px;
+}
+
+.navDiv {
+  display: flex;
+  background-color: #eee;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logged_div {
+  margin-right: 20px;
+}
+
+.cancel_btn {
+  margin: 10px;
+}

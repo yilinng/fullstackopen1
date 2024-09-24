@@ -1,0 +1,16 @@
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/api/persons/4
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "test_nb2",
+    "number": "1-22334455"
+}
+
+###
+DELETE http://localhost:3001/api/persons/4

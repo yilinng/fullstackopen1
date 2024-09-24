@@ -1,0 +1,64 @@
+GET http://localhost:3001/api/blogs
+
+
+###
+GET http://localhost:3001/api/blogs/66e1505f7dff6c2778b9c56b
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxMjMiLCJpZCI6IjY2ZDY3NzZiOTYxNWI2MjM0NDkyY2EzYyIsImlhdCI6MTcyNjA0MjE4MSwiZXhwIjoxNzI2MDQ1NzgxfQ.T7bzYAwJUGXqEv6zDyYGrk2f8wChK3XXTTvs4D_dIFc
+
+{
+    "title": "test_nb2",
+    "author": "1-22334455",
+    "url": "google.com",
+    "like": 5
+}
+
+###
+DELETE http://localhost:3001/api/blogs/66d6828f8ec3f71438268fb9
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxMjMiLCJpZCI6IjY2ZDY3NzZiOTYxNWI2MjM0NDkyY2EzYyIsImlhdCI6MTcyNTMzNDA4NiwiZXhwIjoxNzI1MzM3Njg2fQ.o5nbccG5ePWYawvejQZJxsCaGHMYoz0DzgnUbHmkS0c
+###
+PUT http://localhost:3001/api/blogs/66d66b3ed010cf185889bb5d
+Content-Type: application/json
+
+{
+    "title": "test_nb2 update",
+    "author": "1-22334455",
+    "url": "google.com"
+}
+
+###
+GET http://localhost:3001/api/users
+Content-Type: application/json
+
+
+
+###
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "test123",
+    "password": "teaa"
+}
+
+###
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+    "username": "test123",
+    "password": "teaa"
+}
+
+###
+
+PUT http://localhost:3001/api/blogs/66e1505f7dff6c2778b9c56b/comments
+Content-Type: application/json
+
+{
+    "comments": "test comments...."
+}
