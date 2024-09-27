@@ -1,0 +1,26 @@
+{
+  "name": "part8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "library-backend.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.3.2",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.9.0",
+    "mongoose-unique-validator": "^4.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
